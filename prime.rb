@@ -14,10 +14,8 @@ def prime?(num)
       end
       x += 1
     end
-    puts start
     prime_numbers << start if prime_flag
     start += 1
   end
-  # binding.pry
   prime_numbers.include?(num) ? true : false
 end
